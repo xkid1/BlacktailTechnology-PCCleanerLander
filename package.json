@@ -1,0 +1,27 @@
+{
+  "name": "blacktailtechnology-pccleanerlander",
+  "version": "1.0.0",
+  "description": "BlacktailTechnology-PCCleanerLander",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkings1/BlacktailTechnology-PCCleanerLander.git"
+  },
+  "author": "Elmer T Alluad Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkings1/BlacktailTechnology-PCCleanerLander/issues"
+  },
+  "homepage": "https://github.com/vkings1/BlacktailTechnology-PCCleanerLander#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1"
+  }
+}
