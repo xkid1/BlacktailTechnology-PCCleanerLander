@@ -30,7 +30,7 @@ html, body {
 }
 
 .h_logo {
-  width: 108%;
+  width: 110%;
   position: absolute;
   left: -113px;
   top: -96px;
@@ -81,8 +81,8 @@ html, body {
 }
 
 #section {
-  margin-top: 177px;
-  margin-left: 172px;
+  margin-top: 136px;
+  margin-left: 154px;
 }
 
 #section .m_header {
@@ -144,41 +144,51 @@ html, body {
   font-weight: 400;
 }
 
-.fucos {
-  padding-top: 80px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#17f0d5));
-  background: linear-gradient(#17f0d5);
+.f_main {
   -webkit-clip-path: polygon(0 5%, 100% 0, 100% 84%, 0 100%);
           clip-path: polygon(0 5%, 100% 0, 100% 84%, 0 100%);
+  position: relative;
+}
+
+.f_main .fucos {
+  background: #17f0d5;
   width: 100%;
+  height: 705px;
+  position: absolute;
+  opacity: .7;
+}
+
+.f_main .f_black {
+  padding: 41px 0 0 0;
+  background: #000;
   height: 705px;
 }
 
-.fucos .img_bg {
+.f_main .f_black .img_bg {
   width: 434px;
   position: relative;
-  top: 173px;
+  top: 212px;
   left: 88px;
-  opacity: .8;
 }
 
-.fucos .list-unstyled {
+.f_main .f_black .list-unstyled {
   color: #fff;
+  padding-top: 39px;
 }
 
-.fucos .list-unstyled .fa-check {
+.f_main .f_black .list-unstyled .fa-check {
   font-size: 22px;
   border-radius: 50%;
   border: 1px solid #fff;
   padding: 5px;
 }
 
-.fucos .list-unstyled .f_tittle {
+.f_main .f_black .list-unstyled .f_tittle {
   font-size: 22px;
   font-weight: 700;
 }
 
-.fucos .list-unstyled .f_info {
+.f_main .f_black .list-unstyled .f_info {
   font-size: 16px;
   font-weight: 500;
   margin-left: 53px;
