@@ -144,10 +144,88 @@ html, body {
   font-weight: 400;
 }
 
+#windowInstruction {
+  position: absolute;
+  z-index: 5;
+  top: 313px;
+  left: 69px;
+  display: none;
+}
+
+#windowInstruction .arrow {
+  width: 72px;
+  height: 256px;
+  -webkit-animation: arrow 1s infinite alternate;
+          animation: arrow 1s infinite alternate;
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
+@keyframes arrow {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
+.d_info {
+  position: absolute;
+  background: #fff;
+  width: 349%;
+  height: 117px;
+  text-align: center;
+  top: 119px;
+  left: 111px;
+  border-radius: 6px;
+  padding: 0 11px;
+}
+
+.d_info .d_heading {
+  background: #17f0d5;
+  padding: 10px 31px;
+  border-radius: 17px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  position: relative;
+  top: -11px;
+}
+
+.d_info .d_decption {
+  position: relative;
+  top: 15px;
+}
+
+#bodyBlock {
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 584%;
+  display: none;
+}
+
 .f_main {
   -webkit-clip-path: polygon(0 5%, 100% 0, 100% 84%, 0 100%);
           clip-path: polygon(0 5%, 100% 0, 100% 84%, 0 100%);
   position: relative;
+  margin-top: 90px;
 }
 
 .f_main .fucos {
