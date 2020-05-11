@@ -15,8 +15,8 @@ html, body {
     min-height: 40rem;
     padding-top: 72px;
     padding-bottom: 0;
-    // background: linear-gradient(to bottom, #0acab2 0%, #0acab2 100%);
-    background-image: url(../img/home.png);
+    background: linear-gradient(to bottom, #0acab2 0%, #0acab2 100%);
+    // background-image: url(../img/home.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -62,61 +62,6 @@ html, body {
         
     }
 
-    
-
-    // background-image: url(../img/home.png);
-    // background-size: cover;
-    // background-attachment: scroll;
-    // background-repeat: no-repeat;
-    // background-position: center;
-    // height: 100vh;
-    // min-height: 42rem;
-    // padding-top: 72px;
-    // padding-bottom: 0;
-    // position: relative;
-    // z-index: -1;
-    // left: -195px;
-    // width: 115%;
-    // margin-bottom: 223px;
-
-    // .hero_left {
-    //     position: absolute;
-    //     right: 0;
-    //     margin: 0 313px 0 0;
-    //     /* width: 505px; */
-    //     top: 162px;
-
-    //     .happy {
-    //         width: 565px;
-    //     }
-    // }
-    // h1.m_h1 {
-    //     color: #ffffff;
-    //     margin: 99px 0 0 279px;
-    //     text-align: left;
-    // }
-    // .m_par {
-    //     color: #ffffff;
-    //     font-size: 24px;
-    //     margin: 40px 0 0 271px;
-    //     text-align: left;
-    //     width: 480px;
-    // }
-    // a#scanForFree {
-    //     background-color: #fff;
-    //     border-radius: 31px;
-    //     box-shadow: 0 7px 19px #17f0d5;
-    //     display: block;
-    //     width: 179px;
-    //     padding: 23px;
-    //     font-size: 20px;
-    //     font-weight: 700;
-    //     margin-left: 352px;
-    //     color: #17f0d5;
-    //     margin-top: 60px;
-    //     position: absolute;
-    //     z-index: 9999999;
-    // }
 }
 
 .s_logo {
@@ -191,6 +136,13 @@ html, body {
     //     padding-left: 10px;
     // }
 }
+
+.block-2 {
+    background: url("../img/usingComputer.jpg") no-repeat fixed;
+    background-size: cover;
+    height: 825px;
+    background-position: center;
+  }
 #section {
     margin-top: 136px;
     margin-left: 154px;
@@ -322,7 +274,7 @@ html, body {
 .f_main {
     clip-path: polygon(0 5%, 100% 0, 100% 84%, 0 100%);
     position: relative;
-    margin-top: 150px;
+    margin-top: -33px;
 
     .fucos {
         // padding-top: 80px;

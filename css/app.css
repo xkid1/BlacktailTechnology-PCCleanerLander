@@ -16,7 +16,8 @@ html, body {
   min-height: 40rem;
   padding-top: 72px;
   padding-bottom: 0;
-  background-image: url(../img/home.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0acab2), to(#0acab2));
+  background: linear-gradient(to bottom, #0acab2 0%, #0acab2 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -129,6 +130,13 @@ html, body {
   font-weight: 800;
   margin-top: 3px;
   padding-left: 10px;
+}
+
+.block-2 {
+  background: url("../img/usingComputer.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 825px;
+  background-position: center;
 }
 
 #section {
@@ -276,7 +284,7 @@ html, body {
   -webkit-clip-path: polygon(0 5%, 100% 0, 100% 84%, 0 100%);
           clip-path: polygon(0 5%, 100% 0, 100% 84%, 0 100%);
   position: relative;
-  margin-top: 150px;
+  margin-top: -33px;
 }
 
 .f_main .fucos {
