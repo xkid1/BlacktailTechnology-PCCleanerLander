@@ -281,7 +281,7 @@ html, body {
 }
 
 .f_main .fucos {
-  background: #17f0d5;
+  background: #1e90ff;
   width: 100%;
   height: 705px;
   position: absolute;
@@ -334,7 +334,7 @@ html, body {
 }
 
 .comp_clean .divider {
-  background: #17f0d5;
+  background: #1e90ff;
   height: 4px;
   border-radius: 2px;
   width: 8%;
@@ -363,7 +363,7 @@ html, body {
 }
 
 .final_scan .f_wrapper .divider {
-  background: #17f0d5;
+  background: #1e90ff;
   height: 4px;
   border-radius: 2px;
   width: 8%;
@@ -372,13 +372,13 @@ html, body {
 .final_scan .f_wrapper .f_d {
   background-color: #fff;
   border-radius: 31px;
-  -webkit-box-shadow: 0 1px 11px #17f0d5;
-          box-shadow: 0 1px 11px #17f0d5;
+  -webkit-box-shadow: 0 1px 11px #1e90ff;
+          box-shadow: 0 1px 11px #1e90ff;
   width: 192px;
   padding: 20px;
   font-size: 17px;
   font-weight: 700;
-  color: #17f0d5;
+  color: #1e90ff;
   position: relative;
   top: 30px;
 }
