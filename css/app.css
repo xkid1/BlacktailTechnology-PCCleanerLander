@@ -16,8 +16,8 @@ html, body {
   min-height: 40rem;
   padding-top: 72px;
   padding-bottom: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0acab2), to(#0acab2));
-  background: linear-gradient(to bottom, #0acab2 0%, #0acab2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1e90ff), to(#1e90ff));
+  background: linear-gradient(to bottom, #1e90ff 0%, #1e90ff 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -47,15 +47,13 @@ html, body {
 .masthead .c_wrapper .m_d {
   background-color: #fff;
   border-radius: 31px;
-  -webkit-box-shadow: 0 7px 19px #17f0d5;
-          box-shadow: 0 7px 19px #17f0d5;
   display: block;
   width: 179px;
   padding: 23px;
   font-size: 20px;
   font-weight: 700;
   margin: 54px 0 0 0;
-  color: #17f0d5;
+  color: #1e90ff;
 }
 
 .s_logo {
@@ -394,7 +392,7 @@ html, body {
 }
 
 footer {
-  background: #17f0d5;
+  background: #1e90ff;
   height: 254px;
 }
 
