@@ -47,14 +47,23 @@ html, body {
             border-radius: 31px;
             // box-shadow: 0 7px 19px #17f0d5;
             display: block;
-            width: 179px;
+            width: 199px;
             padding: 23px;
             font-size: 20px;
             font-weight: 700;
             margin: 54px 0 0 0;
             color: #1e90ff;
+            margin: 0 auto;
         }
-
+        .ag {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 10px;
+            color: #fff;
+            font-weight: 600;
+            margin-top: 27px;
+            text-align: center;
+        }
         
     }
 
@@ -299,7 +308,7 @@ html, body {
         
         .list-unstyled {
             color: #fff;
-            padding-top: 39px;
+            padding-top: 131px;
         
             .fa-check {
                 font-size: 22px;

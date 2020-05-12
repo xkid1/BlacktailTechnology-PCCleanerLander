@@ -48,12 +48,23 @@ html, body {
   background-color: #fff;
   border-radius: 31px;
   display: block;
-  width: 179px;
+  width: 199px;
   padding: 23px;
   font-size: 20px;
   font-weight: 700;
   margin: 54px 0 0 0;
   color: #1e90ff;
+  margin: 0 auto;
+}
+
+.masthead .c_wrapper .ag {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 27px;
+  text-align: center;
 }
 
 .s_logo {
@@ -303,7 +314,7 @@ html, body {
 
 .f_main .f_black .list-unstyled {
   color: #fff;
-  padding-top: 39px;
+  padding-top: 131px;
 }
 
 .f_main .f_black .list-unstyled .fa-check {
