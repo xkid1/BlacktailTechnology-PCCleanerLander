@@ -427,7 +427,7 @@ footer {
     }
 
     .fo_wrapper {
-        padding: 71px 0 0 51px; 
+        padding: 71px 0 0;
     }
 
     .list-unstyled {
@@ -440,8 +440,7 @@ footer {
     }
     .f_infos {
         color: #fff;
-        font-size: 19px;
-        font-weight: 500;
+        font-size: 12px;
         text-align: center;
     }
 }
